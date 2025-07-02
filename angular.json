@@ -25,9 +25,33 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "src/styles.css",
+              "src/assets/css/theme.min.css",
+              "src/assets/css/theme.rtl.min.css",
+              "src/assets/css/theme.min.css",
+              "src/assets/icons/cartzilla-icons.min.css",
+              "src/assets/vendor/swiper/swiper-bundle.min.css",
+              "src/assets/vendor/simplebar/simplebar.min.css",
+              "src/assets/vendor/choices.js/choices.min.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/js/customizer.min.js",
+              "src/assets/js/theme-switcher.js",
+              "src/assets/js/theme.min.js",
+              "src/assets/vendor/choices.js/choices.min.js",
+              "src/assets/vendor/simplebar/simplebar.min.js",
+              "src/assets/vendor/swiper/swiper-bundle.min.js",
+              "src/assets/js/bootstrap.js",
+              "src/assets/js/bootstrap.min.js",
+              "src/assets/js/bootstrap.bundle.js",
+              "src/assets/js/bootstrap.bundle.min.js",
+              "src/assets/js/bootstrap.esm.js",
+              "src/assets/js/bootstrap.esm.min.js",
+              "src/assets/ajax/libs/highlight.js/11.10.0/highlight.min.js"
+
+
+            ]
           },
           "configurations": {
             "production": {
@@ -87,12 +111,40 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "src/assets/css/theme.min.css",
+              "src/assets/css/theme.rtl.min.css",
+              "src/assets/css/theme.min.css",
+              "src/assets/icons/cartzilla-icons.min.css",
+              "src/assets/vendor/swiper/swiper-bundle.min.css",
+              "src/assets/vendor/simplebar/simplebar.min.css",
+              "src/assets/vendor/choices.js/choices.min.css",
+              "src/assets/ajax/libs/highlight.js/11.10.0/styles/atom-one-dark.min.css"
+
+
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/js/customizer.min.js",
+              "src/assets/js/theme-switcher.js",
+              "src/assets/js/theme.min.js",
+              "src/assets/vendor/choices.js/choices.min.js",
+              "src/assets/vendor/simplebar/simplebar.min.js",
+              "src/assets/vendor/swiper/swiper-bundle.min.js",
+              "src/assets/js/bootstrap.js",
+              "src/assets/js/bootstrap.min.js",
+              "src/assets/js/bootstrap.bundle.js",
+              "src/assets/js/bootstrap.bundle.min.js",
+              "src/assets/js/bootstrap.esm.js",
+              "src/assets/js/bootstrap.esm.min.js",
+              "src/assets/ajax/libs/highlight.js",
+              "src/assets/ajax/libs/highlight.js/11.10.0/highlight.min.js"
+            ]
           }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": false
   }
 }
